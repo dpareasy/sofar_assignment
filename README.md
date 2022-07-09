@@ -18,7 +18,7 @@ servers are part of the Nav2  navigation system and have to be set up through th
 ## How to run ##
  Clone this repository:
  ```
- git clone 
+ git clone https://github.com/dpareasy/sofar_assignment.git
  ```
  build the package and source:
  ```
