@@ -1,5 +1,6 @@
 # sofar_assignment
 ==============================
+
 The goal of this assignment is to explore the tools of nav2, in particular the use of a costmap filter to establish keepout zones. A 3D model of the mobile 
 robot TIAGo from PAL RObotics has been modeled to run in a custom 3D world built using Webots simulator. A 2D map of this 3D world is passed to Nav2 
 through the use of the Map Server node. The keepout zones are also passed as 2D maps but are processed by a different server called CostMap Filter. These 
