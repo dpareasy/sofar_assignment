@@ -16,7 +16,7 @@ servers are part of the Nav2  navigation system and have to be set up through th
 * **URDF**: it's a folder containing the information about TIAGo.
 
 ## How to run ##
- Clone this repository:
+ Clone this repository inside the src folder of your workspace:
  ```
  git clone https://github.com/dpareasy/sofar_assignment.git
  ```
