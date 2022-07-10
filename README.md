@@ -1,5 +1,5 @@
 # SofAr Assignment
-### Candidates: [Salvatore D'Ippolito](https://github.com/Salvo-Dippolito), [Ankur Kholi](https://github.com/), [Davide Parisi](https://github.com/dpareasy), [Sara Sgambato](https://github.com/sarasgambato) 
+### Candidates: [Salvatore D'Ippolito](https://github.com/Salvo-Dippolito), [Davide Parisi](https://github.com/dpareasy), [Sara Sgambato](https://github.com/sarasgambato), [Ankur Kholi](https://github.com/)
 
 The goal of this assignment is to explore the tools of Nav2, in particular the use of a costmap filter to establish keepout zones. A 3D model of the mobile 
 robot TIAGo from PAL RObotics has been modeled to run in a custom 3D world built using Webots simulator. A 2D map of this 3D world is passed to Nav2 
