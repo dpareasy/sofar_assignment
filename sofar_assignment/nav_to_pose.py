@@ -6,7 +6,7 @@ from rclpy.duration import Duration
 import rclpy
 from rclpy.node import Node
 from threading import Thread
-from keepout_zones.robot_navigator import BasicNavigator, NavigationResult
+from sofar_assignment.robot_navigator import BasicNavigator, NavigationResult
 from rclpy.executors import MultiThreadedExecutor
 '''
 Navigation to go to pose.
