@@ -19,6 +19,7 @@ data_files.append(('share/'+package_name+'/params',[
     'params/keepout_params_3.yaml',
     'params/nav2_params_3.yaml',
     'params/emaro_keepout_params.yaml',
+    'params/emaro_keepout_params_2.yaml',
     'params/emaro_nav2_params.yaml'
      ]))
 data_files.append(('share/'+package_name+'/worlds', [
@@ -54,7 +55,9 @@ data_files.append(('share/'+package_name+'/maps',[
     'maps/emaro_map.yaml',
     'maps/emaro_map.pgm',
     'maps/emaro_keepout_mask.yaml',
-    'maps/emaro_keepout_mask.pgm'
+    'maps/emaro_keepout_mask.pgm',
+    'maps/emaro_keepout_mask2.yaml',
+    'maps/emaro_keepout_mask2.pgm'
     ]))
 data_files.append(('share/'+package_name+'/rviz',[
     'rviz/nav2_default_view.rviz'

@@ -7,8 +7,8 @@ WorldInfo {
 }
 Viewpoint {
   fieldOfView 0.5
-  orientation 0.03426845485810281 -0.9827682593455053 -0.18163761016002122 5.364628547216397
-  position -41.87559478591096 -3.3951404906213702 45.73683314843621
+  orientation 0.3106141220315909 -0.4217360254271967 -0.8518553821227021 4.728418991237339
+  position -22.909710722988606 -75.6448631603873 68.22696856717607
   near 1
   follow "TIAGo Iron"
   followType "None"
@@ -21,19 +21,7 @@ TexturedBackground {
 }
 Floor {
   size 30 30
-  appearance Appearance {
-    texture ImageTexture {
-      url [
-        "/home/davide/Desktop/sofar_ws/src/sofar_assignment/maps/map_emaro_.png"
-      ]
-      repeatS FALSE
-      repeatT FALSE
-      filtering 5
-    }
-    textureTransform TextureTransform {
-      scale 0.03 0.039
-      translation -8 -15
-    }
+  appearance ThreadMetalPlate {
   }
 }
 Door {
@@ -418,7 +406,7 @@ Table {
   size 1 1.4 0.74
 }
 TiagoIron {
-  translation -0.39 -2.18 0
+  translation 0.81 -3.17 0
   controller "<extern>"
   supervisor TRUE
   cameraSlot [
