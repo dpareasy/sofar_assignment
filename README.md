@@ -42,6 +42,8 @@ The robot can be controlled in two different ways:
 * by using rviz user interface to give the robot a goal;
 * by running the node `nav_to_goal.py` in another terminal:
 
-  ```ros2 run sofar_assignment move_to_goal_exe```
+  ```
+  ros2 run sofar_assignment move_to_goal_exe
+  ```
 
 
