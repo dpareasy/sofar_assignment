@@ -8,10 +8,11 @@ from rclpy.node import Node
 from threading import Thread
 from sofar_assignment.robot_navigator import BasicNavigator, NavigationResult
 from rclpy.executors import MultiThreadedExecutor
+
 '''
 Navigation to go to pose.
 '''
-
+#function to ask the user to insert the x coord
 def SetX():
     while True:
         try:
@@ -22,7 +23,7 @@ def SetX():
         else:
             break
     return X
-            
+#function to ask the user to insert the y coord
 def SetY():
     while True:
         try:
