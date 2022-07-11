@@ -31,8 +31,7 @@ data_files.append(('share/'+package_name+'/resource', [
     'resource/ros2_control.yml',
      ]))
 data_files.append(('share/'+package_name+'/URDF',[
-    'URDF/tiago_webots.urdf',
-    'URDF/turtlebot3_waffle.urdf'
+    'URDF/tiago_webots.urdf'
     ]))
 data_files.append(('share/'+package_name+'/maps',[
     'maps/keepout_mask.pgm',
