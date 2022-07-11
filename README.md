@@ -35,7 +35,7 @@ through the use of the Map Server node. The keepout zones are also passed as 2D 
  ```
  where in the `<name-of-the-mask>` field you should put the name of a `.yaml` file present in the maps folder. You can follow the same method to set also the world and its relative 2D map file:
 ```
-ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignment/maps/emaro_map.yaml world:=src/sofar_assignment/worlds/emaro_lab.wbt mask:=src/sofar_assignment/maps/emaro_keepout_mask.yaml params_file:=src/sofar_assignment/params/emaro_nav2_params.yaml keepout_params_file:=src/sofar_assignment/params/emaro_keepout_params.yaml
+ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignmen/maps/emaro_map.yaml world:=src/sofar_assignment/worlds/emaro_lab.wbt mask:=src/sofar_assignment/maps/emaro_keepout_mask2.yaml params_file:=src/sofar_assignment/params/emaro_nav2_params.yaml keepout_params_file:=src/sofar_assignment/params/emaro_keepout_params_2.yaml
 ```
 ## Controlling the robot model ##
 The robot can be controlled in two different ways:
