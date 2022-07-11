@@ -24,11 +24,6 @@ data_files.append(('share/'+package_name+'/params',[
      ]))
 data_files.append(('share/'+package_name+'/worlds', [
     'worlds/default.wbt',
-    'worlds/armed_robots.wbt',
-    'worlds/factory.wbt',
-    'worlds/mavic_world.wbt',
-    'worlds/tesla_world.wbt',
-    'worlds/universal_robot.wbt',
     'worlds/emaro_lab.wbt'
     ]))
 data_files.append(('share/'+package_name+'/resource', [
