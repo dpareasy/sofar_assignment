@@ -45,5 +45,8 @@ The robot can be controlled in two different ways:
   ```
   ros2 run sofar_assignment move_to_goal_exe
   ```
+## References ##
 
+* Steve Macenski reposotory for nav2: https://github.com/ros-planning/navigation2
+* Tutorial for keepout zones: https://navigation.ros.org/tutorials/docs/navigation2_with_keepout_filter.html
 
